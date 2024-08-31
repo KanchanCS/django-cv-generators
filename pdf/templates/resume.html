@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="Description" content="Enter your description here" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Title</title>
+</head>
+
+<body>
+
+    <h3>{{user_profile.name}}</h3>
+    <h3>{{user_profile.email}}</h3>
+    <h3>{{user_profile.phone}}</h3>
+    <hr>
+    <br>
+    <p><b>Summary</b></p>
+    <P>{{user_profile.summary}}</P>
+
+    <p><b>Education</b></p>
+    <ul>
+        <li>{{user_profile.school}}</li>
+        <li>{{user_profile.university}}</li>
+        <li>{{user_profile.degree}}</li>
+
+    </ul>
+    <p><b>Skills</b></p>
+    <p>{{user_profile.skills}}</p>
+
+    <p><b>Pervious Work</b></p>
+    <p>{{user_profile.previous_work}}</p>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
+</body>
+
+</html>
